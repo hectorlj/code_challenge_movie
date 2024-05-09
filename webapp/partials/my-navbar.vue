@@ -1,7 +1,7 @@
 <template>
     <div>
-        <b-navbar toggleable="lg" type-="dark" variant="primary">
-            <b-navbar-brand href="#">Hector's Code Challenge Movie App</b-navbar-brand>
+        <b-navbar toggleable="lg" type="dark" variant="primary">
+            <b-navbar-brand type="light" href="#">Hector's Code Challenge Movie App</b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"/>
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="ml-auto">

@@ -1,10 +1,13 @@
 <template>
     <div class="result-card">
         <div class="left">
-            <h1 class="movie-title">
+            <h2 class="movie-title">
                 {{ movie.title }}
-            </h1>
+            </h2>
             <p class="movie-popularity">{{ movie.popularity_summary }}</p>
+            <!-- Looked a little empty and underwhelming.
+                Added summary to make it a little more interesting. -->
+            <p class="movie-summary">{{ movie.summary }}</p>
         </div>
         <div class="right">
             <div class="movie-poster">

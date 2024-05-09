@@ -1,12 +1,12 @@
 <template>
-    <b-overlay class="results">
+    <div class="results">
         <div class="results-list">
             <SearchResult
                 v-for="movie in results"
                 :key="movie.movie_id"
                 :movie="movie"/>
         </div>
-    </b-overlay>
+    </div>
 </template>
 <script>
 import SearchResult from '@/components/SearchResult';
@@ -30,7 +30,7 @@ export default {
 </script>
 <style scoped>
 .results {
-    background-color: rgba(0,0,0,0.2);
+    background-color: rgba(0,0,0,0.1);
     overflow-y: scroll;
     display: flex;
     flex-flow: row wrap;

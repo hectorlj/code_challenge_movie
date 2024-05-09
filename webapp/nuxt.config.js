@@ -4,7 +4,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'webapp',
+    title: "Hector's Code Challenge Movie App",
     htmlAttrs: {
       lang: 'en'
     },
