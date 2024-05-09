@@ -2,7 +2,7 @@
 </template>
 <script>
 import navbar from '@/partials/my-navbar'
-import SearchResults from '@/components/SearchResults';
+// import SearchResults from '@/components/SearchResults';
 export default {
     components: {
         navbar,
