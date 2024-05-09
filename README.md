@@ -13,7 +13,7 @@ To build and run the app use `npm run start-webapp` and open http://localhost:30
 
 #### Structure
 The Search Results and Search Result components, found in the `/components` folder handle displaying the movie's data.
-The navbar, which contains the search bar and button, is in the `/partials` folder. Storing it in the partials folder would be helpful if more pages were to be created but we wanted to easily reuse the navbar. I also overrode the primary color of the bootstrap to make it blue (go BYU!), since the default colors are kinda bland or too bright.
+The navbar, which contains the search bar and button, is in the `/partials` folder. Storing it in the partials folder would be helpful if more pages were to be created but we wanted to easily reuse the navbar. I also overrode the primary color of the bootstrap to make it blue (go BYU!), since the default colors are a little bland or too bright.
 The default layout handles displaying the search results.
 
 ### `webservice`
