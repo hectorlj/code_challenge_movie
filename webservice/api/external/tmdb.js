@@ -22,8 +22,11 @@ export const getters = {
                     let movie = {
                         'title': element.title,
                         'movie_id': element.id,
-                        'popularity_summary': `${element.popularity} out of ${element.vote_count}`
+                        'popularity_summary': `${element.popularity} out of ${element.vote_count}`,
+                        'summary': element.overview
                     };
+                    // Check that poster path exists before creating url.
+                    // Might be overkill.
                     if (element.poster_path) {
                         movie.poster_image_url = `${image_url}${element.poster_path}`;
                     }
