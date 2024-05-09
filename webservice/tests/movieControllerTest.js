@@ -9,10 +9,19 @@ describe("Movies", () => {
         // Test searching for movies.
         it("should get ten movie records", (done) => {
             chai.request(app)
-                .get('/movies/?search=star wars')
+                .get('/movies?search=star wars')
                 .end((err, res) => {
                     res.should.have.status(200);
                     res.body.should.be.a('array');
+                    done();
+                });
+        });
+        // Test for an empty response.
+        it("should have no movie records", (done) => {
+            chai.request(app)
+                .get('/movies?search=')
+                .end((err, res) => {
+                    res.should.have.status(204);
                     done();
                 })
         })

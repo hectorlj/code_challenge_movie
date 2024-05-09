@@ -1,0 +1,22 @@
+{
+  "name": "code_challenge_movie",
+  "version": "1.0.0",
+  "description": "This is just tooling facilitate setting up the webapp and webservice",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "start-webapp": "npm ci --prefix webapp/; npm run build --prefix webapp/; npm run dev --prefix webapp/",
+    "start-webservice": "npm ci --prefix webservice/; npm run dev --prefix webservice/",
+    "test-webservice": "npm run test --prefix webservice/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hectorlj/code_challenge_movie.git"
+  },
+  "author": "Hector Lopez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hectorlj/code_challenge_movie/issues"
+  },
+  "homepage": "https://github.com/hectorlj/code_challenge_movie#readme"
+}
