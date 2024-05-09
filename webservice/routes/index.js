@@ -1,9 +1,8 @@
 import { Router } from "express";
-var router = Router();
+import * as movieController from '../api/controller/movieController.js';
+const router = Router();
 
-/* GET home page. */
-router.get('/', function(req, res, next) {
-  res.render('index', { title: 'Express' });
-});
+/* GET movies. */
+router.get("/movies", movieController.getters.searchMovies);
 
 export default router;
