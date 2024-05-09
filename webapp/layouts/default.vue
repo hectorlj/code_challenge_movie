@@ -1,11 +1,23 @@
 <template>
+    <div>
+        <Navbar @search="searchInput"/>
+        <SearchResults
+            v-if="showResults"
+            :results="results"
+            :search-input="searchInput"
+            @clearResults="clearResults()"
+        />
+        <div v-else class="no-results">
+            <strong>{{ no_result }}</strong>
+        </div>
+    </div>
 </template>
 <script>
-import navbar from '@/partials/my-navbar'
-// import SearchResults from '@/components/SearchResults';
+import Navbar from '@/partials/my-navbar'
+import SearchResults from '@/components/SearchResults';
 export default {
     components: {
-        navbar,
+        Navbar,
         SearchResults
     },
     data() {
@@ -45,3 +57,10 @@ export default {
     }
 }
 </script>
+<style>
+.no-results {
+    text-align: center;
+    background-color: white;
+    align-items: center;
+}
+</style>

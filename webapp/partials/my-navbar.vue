@@ -3,7 +3,6 @@
         <b-navbar toggleable="lg" type-="dark" variant="primary">
             <b-navbar-brand href="#">Hector's Code Challenge Movie App</b-navbar-brand>
             <b-navbar-toggle target="nav-collapse"/>
-            <!-- Right aligned nav items -->
             <b-collapse id="nav-collapse" is-nav>
                 <b-navbar-nav class="ml-auto">
                     <b-nav-form @submit="onSubmit">
@@ -12,7 +11,8 @@
                             size="lg"
                             class="mr-lg-2"
                             aria-placeholder="Search"
-                            @keyup.enter="$emit('search', searchInput)"/>
+                            @keyup.enter="$emit('search', searchInput)"
+                        />
                         <b-button
                             size="lg"
                             class="my-2 my-lg-0"
@@ -32,10 +32,17 @@ export default {
             searchInput: '',
         }
     },
-    method: {
+    methods: {
         onSubmit(event) {
             event.preventDefault();
         }
     }
 }
 </script>
+<style lang="scss">
+// Variable override of primary color.
+$primary: #11406b;
+
+// Boostrap and its default variables
+@import "../node_modules/bootstrap/scss/bootstrap";
+</style>
