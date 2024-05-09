@@ -18,7 +18,7 @@ The default layout handles displaying the search results.
 
 ### `webservice`
 
-The webservice directory contains the Express app. It's built with Expressjs.
+The webservice directory contains the Express app.
 To build and run the app use `npm run start-webservice`
 To run the webservice tests use `npm run test-webservice`
 
