@@ -36,3 +36,12 @@ The tests are set up in the `/tests` folder. For now it only checks what respons
   - Adding some more useful testing for the contents of the body would also be a plus. Right now the tests only check for the response code. Also adding some Jest or end to end tests with Nightwatch would be nice, but I don't know them well enough to do it within the timelimit (chai was simple enough to learn and add some very basic testing)
   - Making each movie section clickable so that it gets sent to the movie's IMDB or TMDB webpage for more information would also be a nice addition and make the app more relevant.
 
+#### Screenshots
+
+##### Running tests
+![Screenshot 2024-05-09 at 12 16 29 AM](https://github.com/hectorlj/code_challenge_movie/assets/25091784/d989753d-1a91-40d8-a1d4-08a1cc9da55b)
+
+##### Searching on the app
+![Screenshot 2024-05-09 at 12 20 59 AM](https://github.com/hectorlj/code_challenge_movie/assets/25091784/9b86a7a0-757a-42ed-a399-674136e3428f)
+
+![Screenshot 2024-05-09 at 12 18 17 AM](https://github.com/hectorlj/code_challenge_movie/assets/25091784/feb3aa9f-5457-4151-9117-8e10216ffb53)
