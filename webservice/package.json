@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "test": "mocha --require babel-register tests/*.js --exit",
+    "dev": "nodemon app.js",
     "start": "node ./bin/www"
   },
   "dependencies": {
