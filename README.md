@@ -6,10 +6,11 @@ Coding challenge for OIT Software Developer position
 Here is an explanation of the folder structure of this web app:
 
 ### `webapp`
-
 The webapp directory contains the Vue.js app. It's built with Vue 2 and Nuxt 2.
-To build and run the app use `npm run start-webapp` and open http://localhost:3000
 * If another service is running a random port will be assigned.
+
+#### Run webapp from root directory
+  - `npm run start-webapp` builds and runs the webapp on http://localhost:3000
 
 #### Structure
 The Search Results and Search Result components, found in the `/components` folder handle displaying the movie's data.
@@ -19,8 +20,9 @@ The default layout handles displaying the search results.
 ### `webservice`
 
 The webservice directory contains the Express app.
-To build and run the app use `npm run start-webservice`
-To run the webservice tests use `npm run test-webservice`
+#### Run webservice and tests from root directory
+  - `npm run start-webservice` builds and runs the webservice
+  - `npm run test-webservice` runs the webservice tests 
 
 #### Structure
 The api folder contains the controller and the external api handler.
