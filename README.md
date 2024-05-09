@@ -11,7 +11,7 @@ The webapp directory contains the Vue.js app. It's built with Vue 2 and Nuxt 2. 
 To build and run the app use `npm run start-webapp` and open http://localhost:3000
 * If another service is running a random port will be assigned.
 
-### Structure
+#### Structure
 The Search Results and Search Result components, found in the `/components` folder handle displaying the movie's data.
 The navbar, which contains the search bar and button, is in the `/partials` folder. Storing it in the partials folder would be helpful if more pages were to be created but we wanted to easily reuse the navbar. I also overrode the primary color of the bootstrap to make it blue (go BYU!), since the default colors are kinda bland or too bright.
 The default layout handles displaying the search results.
