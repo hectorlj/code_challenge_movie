@@ -7,7 +7,7 @@ Here is an explanation of the folder structure of this web app:
 
 ### `webapp`
 
-The webapp directory contains the Vue.js app. It's built with Vue 2 and Nuxt 2. Go to its [readme](webapp/README.md) for more info on how it's built.
+The webapp directory contains the Vue.js app. It's built with Vue 2 and Nuxt 2.
 To build and run the app use `npm run start-webapp` and open http://localhost:3000
 * If another service is running a random port will be assigned.
 
